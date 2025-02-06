@@ -108,7 +108,3 @@ The Vicharak kernel module supports the following IOCTL commands, which are defi
     ioctl(fd, POP_DATA, &received_data);
     printf("Received data: %s\n", received_data.data);
     ```
-
----
-
-**Note**: This README provides a basic overview of the Vicharak kernel module.  The user-space programs (`configurator.c`, `filler.c`, `reader.c`) are intended to be implemented to fully utilize and test this module.
